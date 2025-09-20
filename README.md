@@ -87,10 +87,11 @@ Analizza tutti i PDF nella cartella `pdfs/` e genera `output/analisi_domande.txt
 - Retry automatico in caso di errori
 
 ### 3. Analisi Domande
+- **582 domande totali** estratte da 97 PDF
 - **211 domande uniche** identificate
-- **Frequenza di apparizione** per ogni domanda
+- **Frequenza di apparizione** per ogni domanda (da 1x a 6x)
 - **File sorgente** per ogni domanda
-- Statistiche complete
+- Statistiche complete e distribuzione frequenze
 
 ## 🔥 Risultati Principali
 
@@ -103,8 +104,10 @@ Analizza tutti i PDF nella cartella `pdfs/` e genera `output/analisi_domande.txt
 
 ### Statistiche Generali:
 - **97 PDF** analizzati con successo
-- **~3.6 domande** per PDF in media
-- **63% domande uniche** (37% ripetute)
+- **582 domande totali** estratte (incluse ripetizioni)
+- **211 domande uniche** identificate
+- **36.3% domande uniche** (63.7% ripetute)
+- **6.0 domande** per PDF in media
 
 ## 🛠 Manutenzione
 
