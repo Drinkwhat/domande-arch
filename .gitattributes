@@ -1,0 +1,15 @@
+# Assicurati che i file di testo usino LF come line ending
+*.txt text eol=lf
+*.md text eol=lf
+*.py text eol=lf
+*.html text eol=lf
+*.json text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+
+# File binari
+*.pdf binary
+*.doc binary
+*.docx binary
+*.zip binary
+*.tar.gz binary
