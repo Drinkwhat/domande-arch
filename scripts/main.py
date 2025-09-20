@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 """
 Script principale per l'analisi dei compiti di Architetture degli Elaboratori
 Coordina tutti gli altri script del progetto

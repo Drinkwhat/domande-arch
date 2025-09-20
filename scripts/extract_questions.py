@@ -1,7 +1,11 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
 import os
 from PyPDF2 import PdfReader
 from collections import Counter
 import re
+from pathlib import Path
 
 def clean_question(question):
     """Rimuove le intestazioni, numeri e altri testi non pertinenti dalla domanda"""
@@ -123,7 +127,11 @@ def _print_questions_by_frequency(question_counter, file_questions):
 
 def _save_results(question_counter, file_questions, total_questions):
     """Salva i risultati in un file"""
-    with open("../output/analisi_domande.txt", "w", encoding="utf-8") as f:
+    script_dir = Path(__file__).parent
+    output_file = script_dir.parent / "output" / "analisi_domande.txt"
+    output_file.parent.mkdir(exist_ok=True)  # Assicura che la cartella esista
+    
+    with open(output_file, "w", encoding="utf-8") as f:
         f.write("ANALISI DOMANDE DI TEORIA - ARCHITETTURE DEGLI ELABORATORI\n")
         f.write("="*70 + "\n\n")
         

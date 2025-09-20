@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 """
 Script per scaricare tutti i compiti (PDF e DOC) nella cartella pdfs
 """
